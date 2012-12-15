@@ -60,9 +60,8 @@ Sample TSS Code
 },
 '#line4': {
   top: '200dp',
-  width: '100%',
+  width: Ti.UI.FILL,
   alphaBlack: 0.1,
-  alphaWhite: 0.5,
   gradientEnabled: false
 },
 '#line5': {
@@ -72,12 +71,17 @@ Sample TSS Code
 }
 ```
 
+Environment
+----
+- iOS
+- Android
+
 Available Properties
 ----
 name                 | key           | description
 ---------------------|---------------|--------------
-**alphaBlack**       | Number        | Alpha channel value of black line. (Range: 0 to 1)
-**alphaWhite**       | Number        | Alpha channel value of white line. (Range: 0 to 1)
+**alphaBlack**       | Number        | Alpha channel value of black line. (Default: 0.5, Range: 0 to 1)
+**alphaWhite**       | Number        | Alpha channel value of white line. (Default: 0.5, Range: 0 to 1)
 **bottom**           | Number/String | Line's bottom position, in platform-specific units.
 **gradientEnabled**  | Boolean       | Determines whether the alpha channel gradation on sides is enabled. (Default: true)
 **gradientPosition** | Number        | Position end of gradation on sides. (Default: 0.25, Range: 0 to 0.5)
