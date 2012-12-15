@@ -78,7 +78,7 @@ Environment
 
 Available Properties
 ----
-name                 | key           | description
+name                 | type          | description
 ---------------------|---------------|--------------
 **alphaBlack**       | Number        | Alpha channel value of black line. (Default: 0.5, Range: 0 to 1)
 **alphaWhite**       | Number        | Alpha channel value of white line. (Default: 0.5, Range: 0 to 1)
