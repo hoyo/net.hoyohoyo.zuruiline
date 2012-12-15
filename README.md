@@ -5,20 +5,20 @@ Drawing smart line widget for [Titanium](http://www.appcelerator.com/platform) [
 
 How to Use
 ----
-* Download and deploy the widget under `app/widgets/net.hoyohoyo.smartline`.
+* Download and deploy the widget under `app/widgets/net.hoyohoyo.zuruiline`.
 * Add the widget as a dependency to your `app/config.json` file like so:
 
 ```javascript
 	…
 	"dependencies": {
-		"net.hoyohoyo.smartline": "1.0"
+		"net.hoyohoyo.zuruiline": "1.0"
 	}
 ```
 
 * Use the widget in a view with `Widget` tag like so:
 
 ```xml
-<Widget id="line" src="net.hoyohoyo.smartline" />
+<Widget id="line" src="net.hoyohoyo.zuruiline" />
 ```
 
 * Set style in a tss file like so:
@@ -76,8 +76,8 @@ Available Properties
 ----
 name                 | key           | description
 ---------------------|---------------|--------------
-**alphaBlack**       | Number        | Alpha channel value of black (upper) line. (Range: 0 to 1)
-**alphaWhite**       | Number        | Alpha channel value of white (lower) line. (Range: 0 to 1)
+**alphaBlack**       | Number        | Alpha channel value of black line. (Range: 0 to 1)
+**alphaWhite**       | Number        | Alpha channel value of white line. (Range: 0 to 1)
 **bottom**           | Number/String | Line's bottom position, in platform-specific units.
 **gradientEnabled**  | Boolean       | Determines whether the alpha channel gradation on sides is enabled. (Default: true)
 **gradientPosition** | Number        | Position end of gradation on sides. (Default: 0.25, Range: 0 to 0.5)
