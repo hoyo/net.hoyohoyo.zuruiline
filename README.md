@@ -1,7 +1,7 @@
 ZuruiLine
 ====
 
-Drawing smart line widget for [Titanium](http://www.appcelerator.com/platform) [Alloy](http://projects.appcelerator.com/alloy/docs/Alloy-bootstrap/index.html). This widget draw a line with high-light called ZURUI-SEN(ズルい線)[^1] in Japanese.
+Drawing smart line widget for [Titanium](http://www.appcelerator.com/platform) [Alloy](http://projects.appcelerator.com/alloy/docs/Alloy-bootstrap/index.html). This widget draw a line with high-light called ZURUI-SEN(ズルい線) in Japanese.
 
 How to Use
 ----
@@ -34,7 +34,7 @@ How to Use
 
 Sample Screenshot
 ----
-![screenshot](./screenshot.png)
+![screenshot](https://raw.github.com/hoyo/net.hoyohoyo.zuruiline/master/screenshot.png)
 
 Sample TSS Code
 ----
@@ -74,41 +74,21 @@ Sample TSS Code
 
 Available Properties
 ----
-- alphaBlack : Number
+name                 | key           | description
+---------------------|---------------|--------------
+**alphaBlack**       | Number        | Alpha channel value of black (upper) line. (Range: 0 to 1)
+**alphaWhite**       | Number        | Alpha channel value of white (lower) line. (Range: 0 to 1)
+**bottom**           | Number/String | Line's bottom position, in platform-specific units.
+**gradientEnabled**  | Boolean       | Determines whether the alpha channel gradation on sides is enabled. (Default: true)
+**gradientPosition** | Number        | Position end of gradation on sides. (Default: 0.25, Range: 0 to 0.5)
+**left**             | Number/String | Line's left position, in platform-specific units.
+**right**            | Number/String | Line's right position, in platform-specific units.
+**top**              | Number/String | Line's top position, in platform-specific units.
+**width**            | Number/String | Line's width, in platform-specific units.
 
-  Alpha channel value of black (upper) line. (Range: 0 to 1)
+About ZURUI-SEN(ズルい線)
+----
+For information about ZURUI-SEN, check out the following links. This widget is inspired by [@ken_c_lo](https://twitter.com/ken_c_lo) and [@machida](https://twitter.com/machida).
 
-- alphaWhite : Number
-
-  Alpha channel value of white (lower) line. (Range: 0 to 1)
-
-- bottom : Number/String
-
-  Line's bottom position, in platform-specific units.
-
-- gradientEnabled : Boolean
-
-  Determines whether the alpha channel gradation on sides is enabled. (Default: true)
-
-- gradientPosition : Number
-
-  Position end of gradation on sides. (Default: 0.25, Range: 0 to 0.5)
-
-- left : Number/String
-
-  Line's left position, in platform-specific units.
-
-- right : Number/String
-
-  Line's right position, in platform-specific units.
-
-- top : Number/String
-
-  Line's top position, in platform-specific units.
-
-- width : Number/String
-
-  Line's width, in platform-specific units.
-
-
-[^1]: Inspired by [@ken_c_lo](https://twitter.com/ken_c_lo)'s "Zurui Design Technique" [English version](https://speakerdeck.com/ken_c_lo/zurui-design-technique-english-version) [日本語版](https://speakerdeck.com/ken_c_lo/zurui-design) 
+- [ズルいデザインテクニック](https://speakerdeck.com/ken_c_lo/zurui-design) 
+- [Zurui Design Technique - English version](https://speakerdeck.com/ken_c_lo/zurui-design-technique-english-version)
