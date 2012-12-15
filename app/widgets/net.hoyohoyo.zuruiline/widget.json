@@ -1,0 +1,13 @@
+{
+	"id": "net.hoyohoyo.zuruiline",
+	"name": "net.hoyohoyo.zuruiline",
+	"description": "Alloy widget drawing smart line called ZURUI-SEN.",
+	"author": "Keigo AOKI",
+	"version": "1.0",
+	"copyright": "Copyright (c) 2012",
+	"license": "Public Domain",
+	"min-alloy-version": "1.0",
+	"min-titanium-version": "2.1",
+	"tags": "line,design,zurui,decoration",
+	"platforms": "android,ios"
+}

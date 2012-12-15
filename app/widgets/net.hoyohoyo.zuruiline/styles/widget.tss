@@ -1,0 +1,13 @@
+'#container': {
+  height: '2dp'
+},
+'.line': {
+  width: Ti.UI.FILL,
+  height: '1dp'
+},
+'#black': {
+  top: 0
+},
+'#white': {
+  top: '1dp'
+}

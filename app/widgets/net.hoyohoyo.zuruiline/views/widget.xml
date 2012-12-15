@@ -1,0 +1,6 @@
+<Alloy>
+  <View id="container">
+    <View id="black" class="line" />
+    <View id="white" class="line" />
+  </View>
+</Alloy>
