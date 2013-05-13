@@ -43,6 +43,8 @@ if (args.gradientEnabled) {
 
 _.each(args, function(value, key) {
   switch (key) {
+    case '__parentSymbol':   // Ignore this
+  		break;
     case 'id':
     case 'alphaBlack':
     case 'alphaWhite':
@@ -60,7 +62,7 @@ _.each(args, function(value, key) {
       break;
     default:
       // それ以外のパラメータならエラーを吐く
-      Ti.API.info('[ZuruiLine] parameter "' + key + '" is ignored.');
+      Ti.API.debug('[ZuruiLine] parameter "' + key + '" is ignored.');
       break;
   }
 });
